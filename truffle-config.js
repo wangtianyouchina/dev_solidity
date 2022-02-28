@@ -36,6 +36,11 @@ module.exports = {
   api_keys: {
     etherscan: 'HYHBIVJRJYZGMY6XW227IJDRY6R74QV3Y8',
   },
+  dashboard: {
+    port: 25012,
+    host: "localhost",
+    verbose: true
+  },
   /**
    * Networks define how you connect to your ethereum client and let you set the
    * defaults web3 uses to send transactions. If you don't specify one truffle

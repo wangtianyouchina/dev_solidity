@@ -66,16 +66,12 @@ contract MonsterNFT is ERC721Enumerable, PaymentSplitter, Ownable, ReentrancyGua
 
     //Addresses of all the members of the team
     address[] private _team = [
-        0x5B38Da6a701c568545dCfcB03FcB875f56beddC4,
-        0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2,
-        0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db
+        0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
     ];
 
     //Shares of all the members of the team
     uint[] private _teamShares = [
-        70,
-        20,
-        10
+        100
     ];
 
     //Constructor of the collection
